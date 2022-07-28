@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+}
+
+.inicio{
+    background:#222222;
+    color: #ffffff;
+    display: flex;
+    width: 1440px;
+       }
+
+#content-left{
+      width: 50%;
+      padding-left: 50px;
+}     
+
+#content-right{
+    width: 50%;
+    text-align: right;
+    padding-right:50px ;
+}
+.menu{
+    background: #F0A83E;
+    height:62px;
+    padding-top: 2%;
+    display: flex;
+    width: 1440px;
+     } 
+
+#menu-left{
+    width: 50%;
+    padding-left: 50px;
+        }   
+        
+#menu-right{
+        width: 50%;
+        text-align: right;
+        padding-right:50px ; 
+            }
+            
+
+    
+
+.bienvenida{
+    font-size: 36px;
+    margin: 50px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+   position: relative;
+   width: 400px;
+   height: 40px;
+   left: 900px;
+  bottom: 350px;
+   border-radius: 15px;
+   
+   
+            }  
+.descuentos{
+    font-size: 20px;
+    position: absolute;
+    padding-right: 350px;
+    top: 48%;
+    left: 1050px;
+
+            }  
+            
+.comederos{
+    font-size: 16px;
+    background: #F0A83E;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 820px;
+    top: 210px;
+   margin-bottom: 2px;
+    margin: 250px;
+   border-radius: 10px;
+   text-align: center;
+   padding: 2px;
+        }
+        
+.pata{
+    position: absolute;
+    left: 15%;
+    height: 40%;
+    padding: 30%;
+    top: 20%;
+    margin: 5px 50px 0px 25px;
+    left: 8%;
+    
+    
+   
+    }        
+.titulo{
+    font-size: 30px;
+    padding: 0px 50px 20px 50px;
+   text-align: center;
+   top: 150%;
+   width: 1440px;
+
+        }
+
+.destacados{
+    display: flex;
+   justify-content: center;
+    top: 20px;
+    cursor: pointer;
+    padding-bottom: 60px;
+    padding-left: 0%;
+    width: 1440px;
+    
+            }  
+            
+.containt-card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1440px;
+                } 
+                
+.card-one{
+    display: flex;
+    text-align: center;
+   background: #FBFAF6;
+  
+        }        
+.precio{
+    color: #F0A83E;
+        }   
+        
+h3{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 1440px;
+}    
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 300px;
+
+    
+    
+}
+.datos-contacto{
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: 555px;
+    background: #3C2313;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    top: 1420px;
+                }
+.datos-email{
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: 555px;
+    background: #3C2313;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    top: 1470px;
+}      
+.datos-telefono{
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: 555px;
+    background: #3C2313;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    top: 1520px;
+                } 
+                
+.boton{
+    display: flex;
+    margin-left:575px ;
+    margin-top: 140px;
+    width: 300px;
+    }                
+                
+.boton-one{
+    background-color: #8A8787;
+    width: 600px;
+    height: 25px;
+    top: 1665px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px;
+    border: #ffffff;
+            }     
+
+.boton-two{
+    background-color:#F0A83E;
+    width: 600px;
+    height: 25px;
+    top: 1665px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px;
+    border: #ffffff;
+        }
+
+.reclute{
+    background: #F0A83E;
+    color:#ffffff;
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    width: 1440px;
+            }       
+
+h2{
+    padding-left: 45px;
+    }            
+        
+.reclute input{
+    background: #ffffff;
+    border: #ffffff;
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    padding-left: 35px;
+               } 
+               
+        
+                
+.boton-three{
+    background: #3C2313;
+    color: #ffffff;
+    border-radius: 20px;
+    height: 30px;
+    
+    
+            }    
+            
+.botones-reclutamiento{
+    display: flex;
+    position: relative;
+    left: 450px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+                        } 
+                        
+.otro-boton{
+    padding-top: 12px;
+    margin-left: 20px;
+            }    
+            
+.reclute-img{
+    margin-left: 25px;
+}            
+
+.foot{
+    background: #3C2313;
+    display: flex;
+    padding: 15px;
+    width: 1440px;
+     }
+
+.img{
+    margin-left: 90px;
+    background: #8A8787;
+    border-radius: 46px;
+    border: #1b1a1a;
+    padding: 30px;
+    
+    }  
+    
+.localidad{
+    padding-left: 170px;
+    margin-bottom: 2px;
+    line-height: 4px;
+    padding-bottom: 40px;
+    display: flex;
+    position: relative;
+    height: 500px;
+        }    
+
+.one{
+    position: absolute;
+    top: 1828px;
+    left: 259px;
+    width: 73px;
+    }
+
+.two{
+    position: absolute;
+    top: 1968px;
+    left: 263px;
+    width: 110px;
+}    
+.three{
+    position: absolute;
+    top: 2100px;
+    left: 264px;
+    width: 110px;
+        }    
+.img-foot{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    right: 400px;
+    top: 2000px;
+        }        
+
+    
+      
+.footer{
+    top: 20px;
+    margin: 0%;
+    padding: 0%;
+    bottom: 0px;
+        }
+
+.find{
+    display: flex;
+    text-align: center;
+    margin-top: 0px; 
+    font-size: 12px;
+    font-weight: 100;
+    justify-content: center;
+    top: 0%;
+    }        
+
+.reserva{
+    background: #222222;
+    height: 20px;
+    color: #ffffff;
+    width: 1440px;
+    position: absolute;
+        }
